@@ -48,8 +48,8 @@ def get_balance(asset):
 
 def main():
     crypto = 'bitcoin'
-    threshold = 68000.0  # Set your desired threshold price
-    amount_to_purchase = 0.01  # Amount of crypto to purchase
+    threshold = 68000.0
+    amount_to_purchase = 0.01
     print("Your balance is %s" %get_balance("BTC"))
 
     while True:
